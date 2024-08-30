@@ -1,0 +1,25 @@
+{
+  "name": "create-vue-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "vue"
+  ],
+  "author": "cat1989",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.5.1",
+    "typescript": "^5.5.4"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "bin": {
+    "create-vue-app": "bin/index.js"
+  }
+}
